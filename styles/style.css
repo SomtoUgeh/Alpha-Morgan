@@ -340,6 +340,54 @@ nav ul li a {
   text-decoration: underline;
 }
 
+.testimony_section {
+  background: #fafafa;
+  padding: 7em 0;
+}
+
+.testimony_content {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.testimony_content h2 {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 2em;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.testimony_content h1 {
+  margin-top: 1.6em;
+  margin-bottom: 50px;
+  font-size: 3em;
+  font-weight: 300;
+  color: var(--purple);
+}
+
+.testimony_container {
+  border: solid 1px #e6e6e6;
+  padding: 62px 102px 42px;
+  width: 60%;
+  margin: 0 auto;
+  background: white;
+  font-size: 1.2em;
+  font-family: var(--font-family-nrm);
+}
+
+.testimony {
+  /* font-size: 1.2em; */
+  line-height: 1.5;
+}
+
+.testifier {
+  margin-top: 3.125em;
+  font-family: var(--font-family-nrml);
+  font-style: italic;
+}
+
 /* .hero {
   background: var(--background);
   padding-top: 9.5em;
