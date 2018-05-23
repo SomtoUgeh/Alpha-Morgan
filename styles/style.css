@@ -319,6 +319,25 @@ nav ul li a {
 
 .panel {
   background: #f8f8f8;
+  padding: 50px;
+  width: 45%;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+.panel_content h4 {
+  margin-bottom: 12px;
+}
+
+.panel_content p {
+  margin-bottom: 30px;
+  font-size: 0.9em;
+  font-family: var(--font-family-nrml);
+}
+
+.panel_content a {
+  color: var(--purple);
+  text-decoration: underline;
 }
 
 /* .hero {
