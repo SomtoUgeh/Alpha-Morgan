@@ -233,6 +233,7 @@ nav ul li a {
 .start_content h2 {
   font-size: 2.5em;
   font-weight: 300;
+  font-family: var(--font-family-nrm);
 }
 
 .start_now {
@@ -240,6 +241,84 @@ nav ul li a {
   background: white;
   border: none;
   margin: 0;
+}
+
+.investment_option {
+  padding-top: 5em;
+}
+
+.investment_intro {
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+.investment_intro h1 {
+  font-size: 3.2em;
+  margin-bottom: 18px;
+}
+
+.investment_intro h3 {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-family: var(--font-family-nrml);
+  line-height: 1.5;
+}
+
+.investment_table {
+  padding-bottom: 100px;
+  padding-top: 60px;
+}
+
+.table_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 45%;
+  margin: 0 auto;
+  background-color: rgba(216, 216, 216, 0);
+  border: solid 1px rgba(151, 151, 151, 0.24);
+  padding: 20px 80px;
+  font-family: var(--font-family-nrm);
+}
+
+#table1 {
+  border-top: solid 1px rgba(151, 151, 151, 0.24);
+}
+
+.table_content:nth-child(even) {
+  border-top: none;
+}
+
+.table_content:nth-child(odd) {
+  border-top: none;
+}
+
+.table_content h5 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.new {
+  color: white;
+  background: var(--purple);
+  padding: 3px 5px;
+  font-size: 0.8em;
+  margin-left: 13px;
+  font-family: var(--font-family-nrml);
+}
+
+.date {
+  color: #808080;
+  font-family: var(--font-family-nrml);
+}
+
+.percent {
+  float: right;
+  color: #5d5b5b;
+}
+
+.panel {
+  background: #f8f8f8;
 }
 
 /* .hero {
