@@ -390,6 +390,7 @@ nav ul li a {
 
 .offer_slider {
   padding-top: 2.5em;
+  margin-bottom: 7.5em;
   background: url(../images/start/scribbles@3x.png) no-repeat no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -399,6 +400,23 @@ nav ul li a {
 .slider {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 50%;
+  margin: 0 auto;
+}
+
+.img_description {
+  display: grid;
+  text-align: center;
+  align-content: center;
+}
+
+.img_description h2 {
+  font-size: 2em;
+  margin-bottom: 4px;
+}
+
+.img_description p {
+  margin: 0;
 }
 
 .Illustration {
