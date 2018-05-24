@@ -276,7 +276,7 @@ nav ul li a {
 }
 
 .investment_intro h3 {
-  width: 70%;
+  width: 55%;
   margin: 0 auto;
   font-size: 1.5em;
   font-family: var(--font-family-nrml);
@@ -484,6 +484,90 @@ footer {
 
 /* iPad pros and huge tablets */
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .Image-Logo {
+    margin-left: 2em;
+  }
+
+  nav ul li {
+    padding: 26px 15px 0;
+  }
+
+  nav ul li a {
+    font-size: 1.2em;
+  }
+
+  .hero_section_content {
+    margin-bottom: 0;
+  }
+
+  .content {
+    margin-left: 6em;
+  }
+
+  .content h1 {
+    font-size: 2.5em;
+  }
+
+  .invest {
+    font-size: 1.2em;
+    padding: 12px 50px;
+  }
+
+  .why_alpha_content h1 {
+    font-size: 3em;
+  }
+
+  .why_options {
+    width: 73%;
+  }
+
+  .options p {
+    font-size: 1.3em;
+  }
+
+  .start_content {
+    width: 70%;
+  }
+
+  .start_content h2 {
+    font-size: 2em;
+  }
+
+  .investment_intro h1 {
+    font-size: 2.5em;
+  }
+
+  .investment_intro h3 {
+    font-size: 1.2em;
+  }
+
+  .table_content,
+  .panel {
+    width: 65%;
+  }
+
+  .testimony_content h2 {
+    width: 85%;
+  }
+
+  .testimony_content h1 {
+    margin-top: 1.3em;
+  }
+
+  .testimony_container {
+    width: 90%;
+  }
+
+  .slider {
+    width: 70%;
+  }
+
+  .footer_content {
+    margin: 0 auto;
+    width: 95%;
+    grid-template-columns: 2.2fr 1fr;
+    font-size: 0.8125em;
+  }
 }
 
 /* Smaller tablets and iPad */
