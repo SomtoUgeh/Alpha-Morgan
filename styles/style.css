@@ -379,7 +379,6 @@ nav ul li a {
 }
 
 .testimony {
-  /* font-size: 1.2em; */
   line-height: 1.5;
 }
 
@@ -387,4 +386,60 @@ nav ul li a {
   margin-top: 3.125em;
   font-family: var(--font-family-nrml);
   font-style: italic;
+}
+
+.offer_slider {
+  padding-top: 2.5em;
+  background: url(../images/start/scribbles@3x.png) no-repeat no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.slider {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Illustration {
+  width: 336px;
+  height: 291px;
+  object-fit: contain;
+}
+
+.final_cta {
+  background: var(--purple);
+  padding: 4em;
+  color: white;
+}
+
+.cta_holder {
+  margin-top: 5em;
+}
+
+footer {
+  background: #efefef;
+  padding: 2.4em;
+  font-family: var(--font-family-nrm);
+}
+
+.footer_content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.terms {
+  display: grid;
+  place-items: end;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.terms a {
+  color: #3b3b3b;
+}
+
+.terms a:hover {
+  text-decoration: underline;
 }
