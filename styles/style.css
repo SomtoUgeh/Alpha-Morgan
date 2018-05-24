@@ -1,9 +1,9 @@
 @import "type.css";
 
 :root {
-  --font-family-cap: CircularStd-Book, sans-serif;
-  --font-family-nrm: Akkurat, sans-serif;
-  --font-family-nrml: Akkurat-Light, sans-serif;
+  --font-family-cap: "Roboto", sans-serif;
+  --font-family-nrm: "Roboto", sans-serif;
+  --font-family-nrml: "Roboto", sans-serif;
   --purple: #94347a;
 }
 
@@ -821,9 +821,18 @@ footer {
     padding-top: 0;
   }
 
-  .table_content,
+  .date {
+    display: none;
+  }
+
   .panel {
-    width: 65%;
+    display: none;
+  }
+
+  .table_content {
+    width: 75%;
+    padding: 20px 20px;
+    grid-template-columns: 2fr 1fr;
   }
 
   .percent {
