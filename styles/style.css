@@ -699,4 +699,194 @@ footer {
 
 /* Mobile devices */
 @media only screen and (max-width: 766px) {
+  .Image-Logo {
+    margin-left: 0;
+    width: 140px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .signup_cta {
+    padding: 5px 18px;
+  }
+
+  .hero_section_content {
+    grid-template-columns: 1fr;
+    margin-bottom: 2em;
+    min-height: 0;
+    text-align: center;
+  }
+
+  .content {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 90%;
+  }
+
+  .content h1 {
+    font-size: 2.5em;
+  }
+
+  .content h4 {
+    font-size: 1em;
+    margin-bottom: 25px;
+  }
+
+  .img_container {
+    margin: 0;
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+
+  .invest {
+    font-size: 1em;
+    padding: 12px 35px;
+  }
+
+  .why_alpha {
+    padding-top: 1.5em;
+  }
+
+  .why_alpha_content {
+    padding: 30px 0;
+  }
+
+  .why_alpha_content h3 {
+    font-size: 1em;
+  }
+
+  .why_alpha_content h1 {
+    font-size: 1.8em;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 0.5em;
+  }
+
+  .why_options {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    grid-template-columns: 1fr;
+  }
+
+  .options {
+    grid-gap: 1.8em;
+  }
+
+  .options p {
+    font-size: 1em;
+    margin: 0 0 3.1875em;
+    line-height: 1.6;
+  }
+
+  .start_content {
+    width: 90%;
+    grid-template-columns: 1fr;
+    padding: 2em;
+  }
+
+  .start_content h2 {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .investment_option {
+    padding-top: 3em;
+  }
+
+  .investment_intro {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+  }
+
+  .investment_intro h1 {
+    font-size: 2em;
+  }
+
+  .investment_intro h3 {
+    font-size: 1em;
+    width: 90%;
+  }
+
+  .investment_table {
+    padding-top: 0;
+  }
+
+  .table_content,
+  .panel {
+    width: 65%;
+  }
+
+  .percent {
+    font-size: 14px;
+  }
+
+  .testimony_section {
+    padding-top: 4em;
+  }
+
+  .testimony_content h2 {
+    width: 100%;
+    font-size: 1.6em;
+  }
+
+  .testimony_content h1 {
+    margin-top: 1em;
+    font-size: 2.5em;
+  }
+
+  .testimony_container {
+    width: 90%;
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  .testimony {
+  }
+
+  .offer_slider {
+    margin-bottom: 5em;
+  }
+
+  .slider {
+    width: 70%;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .Illustration {
+    max-width: 100%;
+  }
+
+  .final_cta {
+    padding: 1.5em;
+  }
+
+  .cta_holder {
+    margin-top: 3em;
+  }
+
+  .footer_content {
+    margin: 0 auto;
+    width: 95%;
+    grid-template-columns: 1fr;
+    font-size: 0.6125em;
+    text-align: center;
+  }
+
+  .terms {
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin-top: 1em;
+    grid-gap: 8px;
+  }
 }

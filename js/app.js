@@ -4,7 +4,7 @@ var nav_list = document.querySelectorAll(".nav_default");
 
 // Back to top function
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
+window.onscroll = function() {
   // scrollFunction();
   headerDown();
   // linkChange();
@@ -18,9 +18,8 @@ window.onscroll = function () {
 //   }
 // }
 
-
 function headerDown() {
-  if (window.pageYOffset >= sticky) {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
     header.classList.add("header_down");
   } else {
     header.classList.remove("header_down");
